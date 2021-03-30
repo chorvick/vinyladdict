@@ -1,0 +1,23 @@
+{
+  "name": "vinyladdict",
+  "version": "1.0.0",
+  "description": "# Vinyl Addict",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "album-art": "^2.0.2",
+    "connect": "^3.7.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "heroku": "^7.51.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "session": "^0.1.0"
+  }
+}
