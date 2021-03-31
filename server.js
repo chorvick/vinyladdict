@@ -4,7 +4,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
-
+const albumArt = require('album-art')
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -16,7 +16,7 @@ const hbs = exphbs.create({ helpers });
 
 const sess = {
     secret: 'Super secret secret',
-    cookie: {},
+    cookie: { maxAge: 90000 },  ////////////cookie times out after 15 minutes of inactivity -- user has to log in again !! 
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
