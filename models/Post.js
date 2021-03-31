@@ -27,7 +27,10 @@ Post.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
-
+        photo: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
 
         user_id: {
             type: DataTypes.INTEGER,
