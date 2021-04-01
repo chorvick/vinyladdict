@@ -21,43 +21,16 @@ CREATE TABLE album (
 
 USE vinyl_db;
 INSERT INTO album (title, content, artist, lp, year)
-VALUES ('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', "Marvin Gaye", "What's Going On", 1971);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES ('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Beach Boys', 'Pet Sounds', 1966);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES ('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Nirvana', 'Nevermind', 1991);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Fleetwood Mac', 'Rumours', 1977);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Michael Jackson' 'Thriller', 1982);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Aretha Franklin', 'I Never Loved a Man the Way I Love You', 1967);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Public Enemy', 'It Takes a Nation of Millions to Hold Us Back', 1988);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'The Clash', 'London Calling', 1979);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Carole King', 'Tapestry', 1971);
-
-USE vinyl_db;
-INSERT INTO album (title, content, artist, lp, year)
-VALUES('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Miles Davis', 'Kind of Blue', 1959);
+VALUES ('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', "Marvin Gaye", "What's Going On", 1971),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Beach Boys', 'Pet Sounds', 1966),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Nirvana', 'Nevermind', 1991),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Fleetwood Mac', 'Rumours', 1977),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Michael Jackson', 'Thriller', 1982),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Aretha Franklin', 'I Never Loved a Man the Way I Love You', 1967),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Public Enemy', 'It Takes a Nation of Millions to Hold Us Back', 1988),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'The Clash', 'London Calling', 1979),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Carole King', 'Tapestry', 1971),
+('Look what I just got!', 'dshpfindvnadfipugnrpgvuiandfvoianrvornrvpu', 'Miles Davis', 'Kind of Blue', 1959);
 
 USE vinyl_db;
 SELECT * FROM album;
