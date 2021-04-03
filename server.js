@@ -16,7 +16,7 @@ const hbs = exphbs.create({ helpers });
 
 const sess = {
     secret: 'Super secret secret',
-    cookie: { maxAge: 90000 },  ////////////cookie times out after 15 minutes of inactivity -- user has to log in again !! 
+    cookie: { maxAge: 9999999 },  ////////////cookie times out after number of miliseconds in this line
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
