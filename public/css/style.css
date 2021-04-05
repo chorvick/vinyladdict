@@ -1,0 +1,22 @@
+h1{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 65px;
+  color: white;
+  position: absolute;
+  top: 0%;
+  width: 50%;
+  text-align: center;
+}
+h5{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 7%;
+  width: 50%;
+  text-align: center;
+}
+
+.jumbotron{
+  background-color: black !important;
+}

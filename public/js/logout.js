@@ -10,7 +10,7 @@ const logout = async () => {
         alert(response.statusText);
     }
 };
-
+//does not exsist yet
 document.querySelector('#logout').addEventListener('click', logout);
   //// leaving as is for now -- on second inspection may need
   /// to take away the logout variable will test 
