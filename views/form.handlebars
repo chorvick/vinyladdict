@@ -1,0 +1,24 @@
+<div class="form-group">
+<label for="albumname">Album Name</label>
+<input required type="text" name="albumname" id="albumname" class="form-control"  style="width: 300px;"></input>
+<label for="albumtitle">Album Title</label>
+<input required type="text" name="ablumtitle" id="ablumtitle" class="form-control"  style="width: 300px;"></input>
+<label for="albumyear">Album Year</label>
+<input  type="text" name="year" id="year" class="date-own form-control"  style="width: 300px;"></input>
+<label for="genre">Genre</label>
+<input  type="text" name="Genre" id="Genre" class="form-control" style="width: 300px;"></input>
+<label for="rating">Rating</label>
+<input  type="text" name="Rating" id="GeRatingnre" class="form-control" style="width: 300px;"></input>
+<label for="description">Story</label>
+<textarea  name="description" id="description" class="form-control" style="width: 300px;"></textarea>
+</div>
+<div class="form-group m-1">
+<a herf="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+<script type="text/javascript">
+  $('.date-own').datepicker({
+     minViewMode: 2,
+     format: 'yyyy'
+   });
+</script>
