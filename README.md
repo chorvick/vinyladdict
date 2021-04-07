@@ -2,7 +2,7 @@
 
 Please visit the new repository [HERE](https://github.com/chorvick/v)
 
-Full deployment on [Heroku Click HERE](https://salty-harbor-76521.herokuapp.com/)
+Full deployment on Heroku Click [HERE](https://salty-harbor-76521.herokuapp.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
