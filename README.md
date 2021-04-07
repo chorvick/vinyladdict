@@ -1,37 +1,52 @@
-# Team BCS
+# PLEASE NOTE THIS PROJECT HAS A NEW REPOSITORY - THIS REPOSITORY IS ABANDONED -- VINYL ADDICT
 
-# Vinyl Addict
+Please visit the new repository [HERE](https://github.com/chorvick/v)
 
+Full deployment on [Heroku Click HERE](https://salty-harbor-76521.herokuapp.com/)
 
-A user can create an account, and create posts of their record collection
-The user can change the posts to show as much as they like.
-How much.
-Why they purchased.
-Where they purchased. 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-View of the site without logging in for others to browse only.
-Interactive, requires a username/password to make a new post to brag about your latest record collection addiction.  
+## Description
 
+please see new repo
 
-Albums will use NPM to get album art from 
-https://www.npmjs.com/package/album-art
+## Table of Contents
 
-Login page 
-http://www.passportjs.org/
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contribution](#contribution)
+[Tests](#tests)
+[Questions](#questions)
 
+## Installation
 
-Technologies to be used:
+please see new repo
 
-Express- Handlebars
-Bootstrap - for mobile
-Dotenv package
-Bcrypt package
-Express session
-Connect-session-sequelize
-Sequelize
-MySql2
-Heroku (for deployment)
+## Usage
 
-Node.js, Express.js
+please see new repo
 
-Build UI
+## License
+
+This application is covered under the MIT License.
+
+## Contribution
+
+please see new repo
+
+## Tests
+
+n/a
+
+## Questions
+
+n/a
+
+### Contact Information
+
+Please address inquiries to our team on Github: [Vinyl Addict](https://github.com/chorvick/v)
+
+Reach US by e mail at: n/a
+
